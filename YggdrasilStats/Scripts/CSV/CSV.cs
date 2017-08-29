@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YggdrasilStats
+namespace YggdrasilStats.Scripts.CSV
 {
-    class Program
+    class CSV
     {
-        static void Main(string[] args)
+        static void Load()
         {
+
+        }
+
+        static void Write()
+        {
+
         }
     }
 }

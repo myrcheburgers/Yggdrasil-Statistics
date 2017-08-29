@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DocumentationNotes.cs" />
+    <Compile Include="Scripts\CSV\CSV.cs" />
+    <Compile Include="Scripts\CSV\FileDirectory.cs" />
+    <Compile Include="Scripts\Globals.cs" />
+    <Compile Include="Scripts\Mean\Mean.cs" />
+    <Compile Include="Scripts\StartPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
