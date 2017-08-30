@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.VisualBasic.FileIO; //(had to add Microsoft.VisualBasic reference to framework assembly)
 
 namespace YggdrasilStats.Scripts.CSV
 {
