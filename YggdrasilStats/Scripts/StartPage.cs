@@ -18,7 +18,7 @@ namespace YggdrasilStats
         {
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             string author = "Taylor J Witt";
-            string[] commands = { "help", "directory", "exit" };
+            string[] commands = { "help", "directory", "file", "reset", "exit" };
             bool confirm = false;
 
             while (!exit)
@@ -50,7 +50,6 @@ namespace YggdrasilStats
 
                     switch (argv[0].ToLower())
                     {
-                        case "hel":
                         case "help":
                             {
                                 Console.Write(Environment.NewLine);
@@ -67,10 +66,23 @@ namespace YggdrasilStats
                                 FileDirectory.Start(argv);
                                 break;
                             }
+                        case "file":
+                            {
+                                ReadWrite.Start(argv);
+                                break;
+                            }
                         case "exit":
                         case "quit":
                             {
+                                confirm = true;
                                 exit = true;
+                                break;
+                            }
+                        case "reset":
+                        case "restart":
+                        case "res":
+                            {
+                                Globals.Reset();
                                 break;
                             }
                         default:

@@ -8,14 +8,6 @@ namespace YggdrasilStats.Scripts.CSV
 {
     class CSV
     {
-        static void Load()
-        {
-
-        }
-
-        static void Write()
-        {
-
-        }
+        //data structure or something, not quite sure how I'll implement this yet
     }
 }
