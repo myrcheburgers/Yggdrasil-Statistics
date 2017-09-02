@@ -11,6 +11,15 @@ namespace YggdrasilStats
         /*
           To set directory: dir set Folder\Subfolder (currently roots to user's documents folder     
     
+        Command tree:
+            -help
+            -directory
+                -set
+                    -default
+                    -folder\subfolder
+            -file
+                -read | load | open
+                    -filename.csv
     
         */ 
     }
